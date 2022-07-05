@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Checkpoint-Recuperação</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">  
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="container-fluid navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand me-5" href="#"><img src="img/image 1.png" alt="Imagem logo da empresa DigitalHouse"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="container-fluid nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="container-fluid nav-item">
+                        <a class="nav-link" href="#card-main">Itens</a>
+                    </li>
+                    <li class="container-fluid nav-item">
+                        <a class="nav-link" href="#footer">Sobre</a>
+                    </li>
+                </ul>
+                <form class="d-flex me-5">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Login
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Faça seu login</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-img"><img src="./img/image 1.png" alt="imagem logo DH"> </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="senha" class="form-label">Senha</label>
+                                    <input type="password" class="form-control" id="senha" required>
+                                </div>
+                                </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="submit" class="btn btn-primary">Entrar</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="img--banner"></div>
+        <div class="text">
+            <h1><strong>Itens</strong></h1>
+        </div>
+            <div class="banner--text">
+                <h1><strong>DH Flix</strong></h1>
+                <p>Confira a maior coletânea de filmes que a Digital House tem a te oferecer</p>
+                <button><a href="#card-main">Explorar</a></button>
+            </div>
+    </main>
+   	<div id="card-main" class="container__cards-main">
+        <section class="cards__main">
+                <div class="card__img"><img src="./img/Rectangle 4.png" alt="Imagem representativa do filme joker" /></div>
+                <div class="card__title">
+                    <h1>Título</h1>
+                </div>
+                <div class="card__infos">
+                    <p>Descrição...</p>
+                </div>
+                <button><a href="./pages/products.html">Abrir</a></button>
+            </section>
+
+            <section class="cards__main">
+                <div class="card__img"><img src="./img/filme 2.png" alt="Imagem representativa do filme After" /></div>
+                <div class="card__title">
+                    <h1>Título</h1>
+                </div>
+                <div class="card__infos">
+                    <p>Descrição...</p>
+                </div>
+                <button><a href="./pages/products.html">Abrir</a></button>
+            </section>
+
+            <section class="cards__main">
+                <div class="card__img"><img src="./img/capita marvel.png" alt="Imagem representativa do filme capitã marvel" /></div>
+                <div class="card__title">
+                    <h1>Título</h1>
+                </div>
+                <div class="card__infos">
+                    <p>Descrição...</p>
+                </div>
+                <button><a href="./pages/products.html">Abrir</a></button>
+            </section>
+
+            <section class="cards__main">
+                <div class="card__img"><img src="./img/dora.png" alt="Imagem representativa do filme dora" /></div>
+                <div class="card__title">
+                    <h1>Título</h1>
+                </div>
+                <div class="card__infos">
+                    <p>Descrição...</p>
+                </div>
+                <button><a href="./pages/products.html">Ver mais</a></button>
+            </section>
+
+            <section class="cards__main">
+                <div class="card__img"><img src="./img/1917.png" alt="Imagem representativa do filme 1917" /></div>
+                <div class="card__title">
+                    <h1>Título</h1>
+                </div>
+                <div class="card__infos">
+                    <p>Descrção...</p>
+                </div>
+                <button><a href="pages/products.html">Ver mais</a></button>
+            </section>
+
+            <section class="cards__main">
+                <div class="card__img"><img src="./img/thor.png" alt="Imagem representativa do filme Thor" /></div>
+                <div class="card__title">
+                    <h1>Título</h1>
+                </div>
+                <div class="card__infos">
+                    <p>Descrição...</p>
+                </div>
+                <button><a href="pages/products.html">Ver mais</a></button>
+            </section>      
+    </div>
+    <footer id="footer">
+        <div class="container__foot">
+            <div class="foot__content">
+                <h1>Ana Klara Souza</h1>
+                <p>Responsável pelo desenvolvimento da página</p>
+            </div>
+            <div class="foot__social">
+                <a href="https://www.linkedin.com/in/ana-klara-souza-1369a01a8" target="_blank"><img src="./img/icons8-linkedin-circundado.svg" alt="Imagem logo do linkedin"></a>
+                <a href="https://github.com/naklara" target="_blank"><img src="./img/icons8-github.svg" alt="Imagem logo do GitHub"></a>
+            </div>
+            <p class="foot">
+                Checkpoint recuperação desenvolvido em 2022
+            </p>
+        </div>
+    </footer>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
